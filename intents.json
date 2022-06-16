@@ -1,0 +1,99 @@
+{
+  "intents": [
+    {
+      "tag": "saludos",
+      "patterns": [
+        "Hola",
+        "Hey",
+        "cómo estás?",
+        "Buen dia",
+        "Ayuda",
+        "Qué tal?"
+      ],
+      "responses": [
+        "Hey :-) te leo",
+        "Hola, estoy para ayudarte",
+        "Hola,puedo ayudarte?",
+        "Hola !"
+      ]
+    },
+      {
+      "tag": "Acerca de chat",
+      "patterns": [
+        "Qué eres",
+        "Quién eres",
+        "Para qué te crearon"
+      ],
+      "responses": [
+        "Soy un asistente virtual y me crearon para ayudarte en tus dudas, espero nos llevemos bien :)"
+
+      ]
+    },
+    {
+      "tag": "Despedidas",
+      "patterns": ["Bye", "Nos vemos", "Cuidate!","Hasta luego","Adios"],
+      "responses": [
+        "Nos vemos :)",
+        "Ten bonito dia! <3",
+        "Gracias por vistarnos",
+        "Cuidate! :)"
+      ]
+    },
+    {
+      "tag": "Agradecimientos",
+      "patterns": ["Gracias", "te agradezco", "Excelente", "Correcto"],
+      "responses": ["Encantado de ayudarte", "Estoy para servirte", "Es un placer"]
+    },
+    {
+      "tag": "Verano",
+      "patterns": [
+        "verano",
+        "ciencia",
+        "científico",
+        "verano científico"
+      ],
+      "responses": [
+        "Programa de cenidet ",
+        "Liberación de residencias"
+      ]
+    },
+    {
+      "tag": "CENIDET",
+      "patterns": [
+        "qué es CENIDET?",
+        "CENIDET"
+      ],
+      "responses": [
+        "El Centro Nacional de Investigacion y Desarrollo Tecnologico, CENIDET, esta ubicado en Cuernavaca, Mor., ciudad que se ha convertido en sede de numerosas instituciones cientificas, dedicadas a la investigacion y a la docencia,lo que ha permitido un intercambio fructifero entre estas."
+        
+      ]
+    },
+    {
+      "tag": "Respuestas comunes",
+      "patterns": [
+        "si",
+        "claro",
+        "por supuesto",
+        "Ayudame",
+        "ok"
+      ],
+      "responses": [
+        "Dime que necesitas",
+        "Un gusto, dime tu duda..",
+        "Ok, dime"
+      ]
+    },
+    {
+      "tag": "Investigadores",
+      "patterns": [
+        "a",
+        "b",
+        "c"
+      ],
+      "responses": [
+        "a",
+        "s"
+      ]
+    }
+  ]
+}
